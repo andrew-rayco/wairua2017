@@ -4,3 +4,11 @@ body {
   font-family: sans-serif;
   background: papayawhip;
 }
+
+.red {
+  background: red;
+}
+
+.orange {
+  background: orange;
+}
