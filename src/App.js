@@ -5,8 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>I'd like to welcome you here....</h1>
-        <p>Holy shit I like this. It's pretty zippy.</p>
+        <h1>Built with Create React App.</h1>
+        <p>Holy shiz</p>
       </div>
     );
   }
