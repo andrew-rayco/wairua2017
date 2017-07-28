@@ -15,7 +15,11 @@ form {
 }
 
 fieldset {
-  background: #ccc;
+  margin-top: 2em;
+}
+
+legend {
+  font-size: 1.4em;
 }
 
 input, textarea {
