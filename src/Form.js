@@ -1,8 +1,10 @@
 import React from 'react'
 
+import FormParent from './form/FormParent'
+
 export default class Form extends React.Component {
   constructor() {
-    super(),
+    super()
     this.state = {}
   }
 
@@ -12,39 +14,11 @@ export default class Form extends React.Component {
         <h1>Teen Adventure Camp</h1>
         <h2>Registration Form</h2>
         <form action="#" method="post" name="teen-camp">
-          <fieldset className="fieldset-parent">
-            <div className="row">
-              <div className="four columns">
-                <label for="ParentCaregivername" id="ParentCaregivername-ariaLabel">Parent / Caregiver name</label>
-                <input id="ParentCaregivername" name="ParentCaregivername" type="text" aria-labelledby="ParentCaregivername-ariaLabel" className="required" title="Parent / Caregiver name. This is a required field"/>
-              </div>
-              <div className="four columns">
-                <label for="Emailaddress" id="Emailaddress-ariaLabel">Email address</label>
-                <input id="Emailaddress" name="Emailaddress" type="text" aria-labelledby="Emailaddress-ariaLabel" className="required" title="Email address. This is a required field"/>
-              </div>
-              <div className="four columns">
-                <label for="Fulladdress" id="Fulladdress-ariaLabel">Full address</label>
-                <textarea id="Fulladdress" name="Fulladdress" type="text" aria-labelledby="Fulladdress-ariaLabel" className="required" title="Full address. This is a required field"/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="four columns">
-                <label for="Homephone" id="Homephone-ariaLabel">Home phone</label>
-                <input id="Homephone" name="Homephone" type="text" aria-labelledby="Homephone-ariaLabel"/>
-              </div>
-              <div className="four columns">
-                <label for="Workphone" id="Workphone-ariaLabel">Work phone</label>
-                <input id="Workphone" name="Workphone" type="text" aria-labelledby="Workphone-ariaLabel"/>
-              </div>
-              <div className="four columns">
-                <label for="Cellphone" id="Cellphone-ariaLabel">Cell phone</label>
-                <input id="Cellphone" name="Cellphone" type="text" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/>
-              </div>
-            </div>
-          </fieldset>
-          <fieldset className="fieldset-child">
-            <div className="row">
+          <FormParent />
 
+          <fieldset className="fieldset-child">
+            <legend>Child</legend>
+            <div className="row">
               <div className="four columns">
                 <label for="Childs1fullname" id="Childs1fullname-ariaLabel">Childs (1) full name</label>
                 <input id="Childs1fullname" name="Childs1fullname" type="text" aria-labelledby="Childs1fullname-ariaLabel" className="required" title="Childs (1) full name. This is a required field"/></div>
@@ -85,6 +59,7 @@ export default class Form extends React.Component {
           </fieldset>
 
           <fieldset className="fieldset-emergency">
+            <legend>Emergency</legend>
             <div className="row">
               <div className="four columns">
                 <label for="Emergencycontact1" id="Emergencycontact1-ariaLabel">Emergency contact 1</label>
@@ -116,10 +91,9 @@ export default class Form extends React.Component {
                 <input id="Cellphone" name="Cellphone" type="text" aria-labelledby="Cellphone-ariaLabel"/></div>
             </div>
           </fieldset>
+
           <div className="row">
-            <div className="twelve columns">
-              <input type="submit" value="Submit"/>
-            </div>
+            <input type="submit" value="Submit" className="submit"/>
           </div>
 
         </form>

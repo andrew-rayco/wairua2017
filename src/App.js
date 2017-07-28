@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import Header from './Header'
 import Feature from './Feature';
 import Form from './Form';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Wairua Retreats</h1>
-        <p>Holy shiz</p>
+      <div className="App container">
+        <Header />
         <Feature />
         <Form />
       </div>
