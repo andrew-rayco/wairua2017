@@ -27,7 +27,7 @@ export default class Form extends React.Component {
     let totalChildren = this.state.numberOfChildren
     let children = []
     for(var i=1; i<totalChildren; i++) {
-      children.push(<FormChild key={i} childNum={i+1} totalChildren={this.state.numberOfChildren} />)
+      children.push(<FormChild key={i} childNum={i+1} totalChildren={totalChildren} />)
     }
     return children
   }
