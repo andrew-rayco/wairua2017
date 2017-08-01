@@ -2,16 +2,15 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import Feature from './Feature'
+import Nav from './Nav'
 
 const Header = () => {
   return (
     <div className="header">
-      <Link to="/"><h1>Wairua Retreats</h1></Link>
-      <nav>
-        <Link to="/form">Form</Link>
-      </nav>
+      <h1><a href="#">Wairua Retreats</a></h1>
+      <Nav />
       <p>Holy shiz</p>
-      <Feature />
+      
     </div>
   )
 }
