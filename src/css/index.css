@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Alegreya Sans';
-  background: #aaa;
   text-align: center;
+  background: #f9fafb;
 }
 
 
@@ -28,7 +28,6 @@ p {
 
 a {
   color: #EAB75C;
-  border-bottom: 3px solid #EAB75C;
   display: inline;
   font-style: italic;
   font-weight: 700;
@@ -44,13 +43,22 @@ a:hover {
 /* Feature */
 
 .feature {
-  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url('/images/wairua-retreats-inspiration.jpg');
+  background-image: url('../images/wairua-retreats-inspiration.jpg');
+  background-size: cover;
+  min-height: 200px;
+}
+
+.feature h2 {
+  padding-top: 100px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* form */
 
 form {
-  background: #bbb;
+  border: 1px solid #bbb;
+  border-radius: 4px;
   padding: 1em;
 }
 
@@ -70,5 +78,10 @@ input, textarea {
 input[type="submit"] {
   width: 30.3333%;
   float: right;
-  border: 1px solid lightgreen;
+  background: lightgreen;
+}
+
+input[type="submit"]:hover {
+  background: green;
+  color: white;
 }
