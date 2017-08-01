@@ -1,16 +1,21 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Alegreya Sans';
   text-align: center;
-  background: #f9fafb;
+  background: #E5F7FC;
 }
 
 
 /* Typography */
 
 h1 {
-  color: #283339;
+  color: #FF9254;
   font-family: 'Alegreya';
   font-size: 50px;
   font-weight: 700;
@@ -19,7 +24,7 @@ h1 {
 }
 
 p {
-  color: #455158;
+  color: #07385B;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -27,7 +32,7 @@ p {
 }
 
 a {
-  color: #EAB75C;
+  color: #118BAD;
   display: inline;
   font-style: italic;
   font-weight: 700;
@@ -36,22 +41,72 @@ a {
 }
 
 a:hover {
-  background: #EAB75C;
-  color: #fff;
+  background: #FFB454;
+  color: #07385B;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */
+
+.header a {
+  color: #FF9254;
 }
 
 /* Feature */
 
 .feature {
+  min-height: 400px;
   background-image: url('../images/wairua-retreats-inspiration.jpg');
-  background-size: cover;
-  min-height: 200px;
+  background-position: center;
+  background-size: 0.9%;
+}
+
+.feature p {
+  color: #fff;
+  text-shadow: 3px 3px 3px #1B1725;
 }
 
 .feature h2 {
-  padding-top: 100px;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Alegreya';
+  font-size: 6em;
+  padding-top: 80px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #1B1725;
+}
+
+.full-width-div {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+
+}
+
+/* Workshops */
+
+.workshops {
+  margin-top: 3em;
+}
+
+/* Footer */
+
+.footer {
+  background: #07385B;
+}
+
+.footer a,
+.footer p {
+  color: #FF9254;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 /* form */
