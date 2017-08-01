@@ -5,6 +5,7 @@ import Header from './Header'
 import Home from './Home'
 import Form from './Form'
 import About from './About'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path="/" exact={true} component={Home} />
           <Route path="/form" component={Form} />
           <Route path="/about" component={About} />
+          <Footer />
         </div>
       </Router>
     );
