@@ -7,11 +7,11 @@ const FormParent = () => {
       <div className="row">
         <div className="four columns">
           <label htmlFor="ParentCaregivername" id="ParentCaregivername-ariaLabel">Parent / Caregiver name</label>
-          <input id="ParentCaregivername" name="ParentCaregivername" type="email" aria-labelledby="ParentCaregivername-ariaLabel" className="required u-full-width" title="Parent / Caregiver name. This is a required field"/>
+          <input id="ParentCaregivername" name="ParentCaregivername" type="text" aria-labelledby="ParentCaregivername-ariaLabel" className="required u-full-width" title="Parent / Caregiver name. This is a required field"/>
         </div>
         <div className="four columns">
           <label htmlFor="Emailaddress" id="Emailaddress-ariaLabel">Email address</label>
-          <input id="Emailaddress" name="Emailaddress" type="text" aria-labelledby="Emailaddress-ariaLabel" className="required" title="Email address. This is a required field"/>
+          <input id="Emailaddress" name="Emailaddress" type="email" aria-labelledby="Emailaddress-ariaLabel" className="required" title="Email address. This is a required field"/>
         </div>
         <div className="four columns">
           <label htmlFor="Fulladdress" id="Fulladdress-ariaLabel">Full address</label>

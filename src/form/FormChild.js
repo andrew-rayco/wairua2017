@@ -1,7 +1,6 @@
 import React from 'react'
 
 const FormChild = (props) => {
-  console.log(props.totalChildren)
   return (
     <fieldset className="fieldset-child">
       <legend>Child {(props.totalChildren > 1)
