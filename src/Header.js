@@ -7,7 +7,6 @@ const Header = () => {
     <div className="header">
       <h1><a href="/#/">Wairua Adventures</a></h1>
       <Nav />
-      <p>Holy shiz</p>
     </div>
   )
 }
