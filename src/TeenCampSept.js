@@ -47,7 +47,7 @@ const TeenCampSept = () => {
         </div>
         <div className="four columns">
           <h4>Register</h4>
-          <p><a href="/#/form">Register now</a></p>
+          <button href="/#/form">Register now</button>
           <p>Alternatively, please contact us on <a href="mailto:wairuaadventures@gmail.com">wairuaadventures@gmail.com</a></p>
         </div>
       </div>
