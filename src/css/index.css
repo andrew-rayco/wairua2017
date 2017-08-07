@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Alegreya Sans';
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   background: #f1f1ee;
   color: #4a4a4a;
@@ -15,32 +15,33 @@ body {
 
 /* Typography */
 
-h1, h2, h4 {
-  font-family: 'Alegreya Sans';
+h2, h4 {
+  font-family: 'Amatic SC', cursive;
 }
 
 
 h1 {
+  font-family: 'Amatic SC', cursive;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 60px;
   margin-bottom: 48px;
 }
 
 h3 {
-  font-family: 'Alegreya';
   font-weight: 700;
+  font-size: 26px;
 }
 
 h4 {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
 p {
   color: #4a4a4a;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 36px;
@@ -70,9 +71,10 @@ img {
 
 .header {
   height: 80px;
+  margin-bottom: 3em;
   background: #fff;
-  border-bottom: 4px solid #ffb302;
-  box-shadow: 0px 5px 19px #a8a8a6;
+  border-bottom: 14px solid #ffb302;
+  /*box-shadow: 0px 5px 19px #a8a8a6;*/
 }
 
 .header h1 {
@@ -83,6 +85,11 @@ img {
   margin-bottom: 0;
 }
 
+.header h1 a {
+  font-style: normal;
+  font-weight: normal;
+}
+
 .header nav {
   display: inline-block;
   float: right;
@@ -90,13 +97,12 @@ img {
 }
 
 .header nav a {
-  font-family: 'Alegreya Sans';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 200;
   letter-spacing: 1px;
   margin-left: 1em;
-  text-transform: uppercase;
 }
 
 
@@ -107,6 +113,7 @@ img {
   background-image: url('../images/wairua-retreats-inspiration.jpg');
   background-position: center;
   background-size: 0.9%;
+  margin-top: -3em;
 }
 
 .feature p {
@@ -117,7 +124,7 @@ img {
 }
 
 .feature h2 {
-  font-family: 'Alegreya';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 6em;
   padding-top: 80px;
   color: #fff;
@@ -125,7 +132,7 @@ img {
 }
 
 .full-width-div {
-  margin: 0 -9999rem 3em;
+  margin: 0 -9999rem;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
 }
@@ -135,13 +142,13 @@ img {
 .workshop {
   margin-bottom: 2em;
   padding: 1em;
-  background: #ffffff;
+  background: #ffb302;
   border-radius: 4px;
   transition: background 0.5s ease;
 }
 
 .workshop:hover {
-  background: #ffb302;
+  background: #fff;
 }
 
 .workshop button {
