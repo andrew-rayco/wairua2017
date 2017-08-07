@@ -174,20 +174,12 @@ img {
 
 /* Camp */
 
+/* About */
 
-/* Footer */
-
-.footer {
-  background: #ffb302;
-  margin-bottom: 0;
+.text-left {
+  text-align: left;
 }
 
-.footer p {
-  font-size: 12px;
-  opacity: 0.7;
-  margin-top: 1.4em;
-  margin-bottom: 2em;
-}
 
 /* form */
 
@@ -221,4 +213,19 @@ input[type="submit"]:hover {
   background: #ffb302;
   color: #4a4a4a;
   border: #ffb302;
+}
+
+
+/* Footer */
+
+.footer {
+  background: #ffb302;
+  margin-bottom: 0;
+}
+
+.footer p {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 1.4em;
+  margin-bottom: 2em;
 }
