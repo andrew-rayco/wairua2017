@@ -15,9 +15,10 @@ body {
 
 /* Typography */
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
   font-family: 'Alegreya Sans';
 }
+
 
 h1 {
   font-size: 50px;
@@ -26,11 +27,22 @@ h1 {
   margin-bottom: 48px;
 }
 
+h3 {
+  font-family: 'Alegreya';
+  font-weight: 700;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 p {
   color: #4a4a4a;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 26px;
   margin-bottom: 36px;
 }
 
@@ -41,18 +53,13 @@ a {
   font-weight: 700;
   padding: 0 5px;
   text-decoration: none;
-  transition: color 0.2s ease;
-  transition: margin 0.2 ease;
-  transition: text-shadow 0.2 ease;
+  transition: border-bottom 0.5 ease;
 }
 
 a:hover {
-  /*color: #ffb302;*/
   color: #4a4a4a;
-  border-radius: 20px;
-  text-shadow: 2px 2px 2px #ffb302;
-  /*margin-left: -4px;
-  margin-top: -4px;*/
+  opacity: 0.7;
+  border-bottom: 3px solid #ffb302;
 }
 
 img {
@@ -83,13 +90,13 @@ img {
 }
 
 .header nav a {
+  font-family: 'Alegreya Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1px;
   margin-left: 1em;
-  font-size: 18px;
   text-transform: uppercase;
-}
-
-.clearfix {
-  clear: both;
 }
 
 
@@ -103,6 +110,8 @@ img {
 }
 
 .feature p {
+  font-size: 24px;
+  line-height: 36px;
   color: #fff;
   text-shadow: 3px 3px 3px #4a4a4a;
 }
@@ -128,7 +137,7 @@ img {
   padding: 1em;
   background: #ffffff;
   border-radius: 4px;
-  transition: background 0.3s ease;
+  transition: background 0.5s ease;
 }
 
 .workshop:hover {
@@ -136,12 +145,13 @@ img {
 }
 
 .workshop button {
-  background: #ffb302;
-  border: 1px solid #ffb302;
+  background: #fff;
+  border: 2px solid #ffb302;
 }
 
 .workshop button:hover {
-  background: #ffb302;
+  background: #eee;
+  /*border: #fff;*/
 }
 
 .block-link {
@@ -157,25 +167,19 @@ img {
 
 .footer {
   background: #ffb302;
+  margin-bottom: 0;
 }
 
-.footer a,
 .footer p {
-  color: #4a4a4a;
-}
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 1.4em;
+  margin-bottom: 2em;
 }
 
 /* form */
 
 form {
-  border: 1px solid #bbb;
   border-radius: 4px;
   padding: 1em;
 }
@@ -196,10 +200,13 @@ input, textarea {
 input[type="submit"] {
   width: 30.3333%;
   float: right;
-  background: lightgreen;
+  background: #4a4a4a;
+  border: 1px solid #4a4a4a;
+  color: #fff;
 }
 
 input[type="submit"]:hover {
-  background: green;
-  color: white;
+  background: #ffb302;
+  color: #4a4a4a;
+  border: #ffb302;
 }

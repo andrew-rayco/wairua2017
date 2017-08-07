@@ -9,7 +9,7 @@ const Header = () => {
         <h1><a href="/#/">Wairua Adventures</a></h1>
         <Nav />
       </div>
-      <div className="clearfix"></div>
+      <div className="u-cf"></div>
     </div>
   )
 }

@@ -34,7 +34,7 @@ const TeenCampSept = () => {
         <div className="four columns">
           <h4>Venue</h4>
           <p>
-            <strong>Pukerua Bay Scout Hall</strong><br />
+            Pukerua Bay Scout Hall<br />
             Kotipu Place,<br />
             Pukerua Bay
           </p>
