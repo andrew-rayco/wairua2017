@@ -64,6 +64,7 @@ img {
   float: left;
   height: 80px;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .header nav {
@@ -104,7 +105,7 @@ img {
 }
 
 .full-width-div {
-  margin: 0 -9999rem;
+  margin: 0 -9999rem 3em;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
 
@@ -112,8 +113,30 @@ img {
 
 /* Workshops */
 
-.workshops {
-  margin-top: 3em;
+.workshop {
+  margin-bottom: 2em;
+  padding: 1em;
+  background: papayawhip;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.workshop:hover {
+  background: pink;
+}
+
+.workshop button {
+  background: lightblue;
+}
+
+.workshop button:hover {
+  background: lightgreen;
+}
+
+.block-link {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
 /* Camp */

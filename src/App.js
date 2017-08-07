@@ -3,10 +3,12 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 
 import Header from './Header'
 import Home from './Home'
+import Workshops from './Workshops'
 import Form from './Form'
 import About from './About'
 import Footer from './Footer'
 import TeenCampSept from './TeenCampSept'
+
 
 class App extends Component {
   render() {
@@ -15,6 +17,7 @@ class App extends Component {
         <div className="App container">
           <Route path="/" component={Header} />
           <Route path="/" exact={true} component={Home} />
+          <Route path="/workshops" exact={true} component={Workshops} />
           <Route path="/form" component={Form} />
           <Route path="/about" component={About} />
           <Route path="/teen-camp-sept" component={TeenCampSept} />
