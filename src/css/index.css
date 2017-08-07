@@ -6,57 +6,81 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Alegreya Sans';
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  background: #E5F7FC;
+  background: #f1f1ee;
+  color: #4a4a4a;
 }
 
 
 /* Typography */
 
+h2, h4 {
+  font-family: 'Amatic SC', cursive;
+}
+
+
 h1 {
-  color: #FF9254;
-  font-family: 'Alegreya';
+  font-family: 'Amatic SC', cursive;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 60px;
   margin-bottom: 48px;
 }
 
+h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+
 p {
-  color: #07385B;
-  font-size: 24px;
+  color: #4a4a4a;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 26px;
   margin-bottom: 36px;
 }
 
 a {
-  color: #118BAD;
+  color: #4a4a4a;
   display: inline;
   font-style: italic;
   font-weight: 700;
   padding: 0 5px;
   text-decoration: none;
+  transition: border-bottom 0.5 ease;
 }
 
 a:hover {
-  background: #FFB454;
-  color: #07385B;
+  color: #4a4a4a;
+  opacity: 0.7;
+  border-bottom: 3px solid #ffb302;
 }
 
 img {
   width: 100%;
 }
 
+.full-width-div {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+}
+
 /* Header */
 
 .header {
   height: 80px;
-}
-
-.header a {
-  color: #FF9254;
+  margin-bottom: 3em;
+  background: #fff;
+  border-bottom: 14px solid #ffb302;
+  /*box-shadow: 0px 5px 19px #a8a8a6;*/
 }
 
 .header h1 {
@@ -67,6 +91,11 @@ img {
   margin-bottom: 0;
 }
 
+.header h1 a {
+  font-style: normal;
+  font-weight: normal;
+}
+
 .header nav {
   display: inline-block;
   float: right;
@@ -74,63 +103,67 @@ img {
 }
 
 .header nav a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1px;
   margin-left: 1em;
-}
-
-.clearfix {
-  clear: both;
 }
 
 
 /* Feature */
+
 
 .feature {
   min-height: 400px;
   background-image: url('../images/wairua-retreats-inspiration.jpg');
   background-position: center;
   background-size: 0.9%;
+  margin-top: -3em;
+  margin-bottom: 2em;
 }
 
 .feature p {
+  font-size: 24px;
+  line-height: 36px;
   color: #fff;
-  text-shadow: 3px 3px 3px #1B1725;
+  text-shadow: 3px 3px 3px #4a4a4a;
 }
 
 .feature h2 {
-  font-family: 'Alegreya';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 6em;
+  font-weight: 700;
   padding-top: 80px;
   color: #fff;
-  text-shadow: 2px 2px 4px #1B1725;
+  text-shadow: 2px 2px 4px #4a4a4a;
 }
 
-.full-width-div {
-  margin: 0 -9999rem 3em;
-  /* add back negative margin value */
-  padding: 0.25rem 9999rem;
 
-}
 
 /* Workshops */
 
 .workshop {
   margin-bottom: 2em;
   padding: 1em;
-  background: papayawhip;
+  background: #ffb302;
   border-radius: 4px;
-  transition: background 0.3s ease;
+  transition: background 0.5s ease;
 }
 
 .workshop:hover {
-  background: pink;
+  background: #fff;
 }
 
 .workshop button {
-  background: lightblue;
+  background: #fff;
+  border: 2px solid #ffb302;
 }
 
 .workshop button:hover {
-  background: lightgreen;
+  background: #eee;
+  /*border: #fff;*/
 }
 
 .block-link {
@@ -141,30 +174,16 @@ img {
 
 /* Camp */
 
+/* About */
 
-/* Footer */
-
-.footer {
-  background: #07385B;
-}
-
-.footer a,
-.footer p {
-  color: #FF9254;
-}
-
-.left {
+.text-left {
   text-align: left;
 }
 
-.right {
-  text-align: right;
-}
 
 /* form */
 
 form {
-  border: 1px solid #bbb;
   border-radius: 4px;
   padding: 1em;
 }
@@ -185,10 +204,28 @@ input, textarea {
 input[type="submit"] {
   width: 30.3333%;
   float: right;
-  background: lightgreen;
+  background: #4a4a4a;
+  border: 1px solid #4a4a4a;
+  color: #fff;
 }
 
 input[type="submit"]:hover {
-  background: green;
-  color: white;
+  background: #ffb302;
+  color: #4a4a4a;
+  border: #ffb302;
+}
+
+
+/* Footer */
+
+.footer {
+  background: #ffb302;
+  margin-bottom: 0;
+}
+
+.footer p {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 1.4em;
+  margin-bottom: 2em;
 }

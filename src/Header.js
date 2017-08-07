@@ -5,11 +5,11 @@ import Nav from './Nav'
 const Header = () => {
   return (
     <div>
-      <div className="header">
+      <div className="header full-width-div">
         <h1><a href="/#/">Wairua Adventures</a></h1>
         <Nav />
       </div>
-      <div className="clearfix"></div>
+      <div className="u-cf"></div>
     </div>
   )
 }
