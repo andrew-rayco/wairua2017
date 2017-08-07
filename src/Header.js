@@ -4,13 +4,14 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <div className="header">
-      <h1><a href="/#/">Wairua Adventures</a></h1>
-      <Nav />
-      <p>Holy shiz</p>
+    <div>
+      <div className="header">
+        <h1><a href="/#/">Wairua Adventures</a></h1>
+        <Nav />
+      </div>
+      <div className="clearfix"></div>
     </div>
   )
 }
-
 
 export default Header

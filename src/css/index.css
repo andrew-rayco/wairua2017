@@ -51,9 +51,36 @@ img {
 
 /* Header */
 
+.header {
+  height: 80px;
+}
+
 .header a {
   color: #FF9254;
 }
+
+.header h1 {
+  display: inline-block;
+  float: left;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.header nav {
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+}
+
+.header nav a {
+  margin-left: 1em;
+}
+
+.clearfix {
+  clear: both;
+}
+
 
 /* Feature */
 
@@ -78,17 +105,42 @@ img {
 }
 
 .full-width-div {
-  margin: 0 -9999rem;
+  margin: 0 -9999rem 3em;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
-  
+
 }
 
 /* Workshops */
 
-.workshops {
-  margin-top: 3em;
+.workshop {
+  margin-bottom: 2em;
+  padding: 1em;
+  background: papayawhip;
+  border-radius: 4px;
+  transition: background 0.3s ease;
 }
+
+.workshop:hover {
+  background: pink;
+}
+
+.workshop button {
+  background: lightblue;
+}
+
+.workshop button:hover {
+  background: lightgreen;
+}
+
+.block-link {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* Camp */
+
 
 /* Footer */
 
