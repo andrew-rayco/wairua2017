@@ -29,7 +29,7 @@ const TeenCampSept = () => {
       </div>
 
         <h4>Your wellbeing investment: <span>$140*</span></h4>
-        <p>Price includes snacks, lunch & dinner on Saturday, breakfast on Sunday, all workshops & activities, plus one nights accommodation. (*family discount & payment options available on application)</p>
+        <p>Price includes snacks, lunch & dinner on Saturday, breakfast on Sunday, all workshops & activities, plus one nights accommodation.<br />(*family discount & payment options available on application)</p>
       <div className="row">
         <div className="four columns">
           <h4>Venue</h4>
@@ -47,7 +47,7 @@ const TeenCampSept = () => {
         </div>
         <div className="four columns">
           <h4>Register</h4>
-          <button href="/#/form">Register now</button>
+          <a href="/#/form" className="button">Register Now</a>
           <p>Alternatively, please contact us on <a href="mailto:wairuaadventures@gmail.com">wairuaadventures@gmail.com</a></p>
         </div>
       </div>
