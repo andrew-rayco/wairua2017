@@ -10,7 +10,7 @@ const About = () => {
         </div>
         <div className="eight columns text-left">
           <h3>Shane</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.</p>
+          <p>Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.</p>
         </div>
       </div>
       <div className="row">
