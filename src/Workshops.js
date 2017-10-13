@@ -15,7 +15,7 @@ const Workshops = () => {
           <a href="/#/teen-camp-sept" class="btn">Learn more</a>
         </li>
         <li>
-          <i className="fa fa-bicyle fa-4x"></i>
+          <i className="fa fa-bicycle fa-4x"></i>
           <h4>Teenage Adventure Camp</h4>
           <h5>October 20 - 22</h5>
           <p>Do you want to spend the weekend having lots of fun with new friends? Come and join us on our next exciting Teenage Adventure Camp.</p>
