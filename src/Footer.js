@@ -2,9 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer full-width-div">
+    <footer>
       <p>&copy; 2017 Wairua Adventures</p>
-    </div>
+      <ul>
+        <li><a href="http://twitter.com"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="http://facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+        <li><a href="http://snapchat.com"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
+      </ul>
+    </footer>
   )
 }
 
