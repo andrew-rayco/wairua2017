@@ -4,13 +4,10 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <div>
-      <div className="header full-width-div">
-        <h1><a href="/#/">Wairua Adventures</a></h1>
-        <Nav />
-      </div>
-      <div className="u-cf"></div>
-    </div>
+    <header>
+      <h2><a href="/#/">Wairua Adventures</a></h2>
+      <Nav />
+    </header>
   )
 }
 
