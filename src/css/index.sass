@@ -40,23 +40,23 @@ section:not(.hero):nth-child(even)
 	background-color: #f5f5f5
 
 hr
-	width: 250px
-	height: 3px
+	width: 150px
+	height: 2px
 	background-color: $primary-color
 	border: 0
 	margin-bottom: 50px
 
 section h3.title
 	text-transform: capitalize
-	font: 700 32px "Open Sans", sans-serif
-	margin-bottom: 30px
+	font: 600 32px "Open Sans", sans-serif
+	margin-bottom: 35px
 	text-align: center
 
 section p
 	max-width: 775px
 	line-height: 2
 	padding: 0 20px
-	margin-bottom: 30px
+	margin-bottom: 35px
 	text-align: center
 
 @keyframes fadein
@@ -146,11 +146,14 @@ header.dark nav .link
 		color: $primary-color
 
 .workshops .grid li h4
-	font: 700 30px "Quicksand", sans-serif
+	// font: 700 30px "Quicksand", sans-serif
+	color: #555
+	font-size: 20px
 	margin: 25px 0 5px
 
 .workshops .grid li h5
-	font: 200 18px "Open Sans", sans-serif
+	// font: 200 18px "Open Sans", sans-serif
+	font-weight: 200
 	margin-bottom: 24px
 
 .workshops a.btn
@@ -209,11 +212,12 @@ header.dark nav .link
 
 footer
 	display: flex
+	// flex-direction: column
 	align-items: center
 	justify-content: space-around
-	background-color: #607d8b
+	background-color: #414a4f
 	color: #fff
-	padding: 20px 0
+	padding: 60px 0
 
 footer ul
 	display: flex
