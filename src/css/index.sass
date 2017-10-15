@@ -1,5 +1,5 @@
 $font-color: #555
-$primary-blue: #3f51b5
+$primary-color: #3f51b5
 
 *
 	margin: 0
@@ -27,7 +27,7 @@ a.btn
   text-transform: uppercase
   font-weight: bold
   text-align: center
-  background-color: $primary-blue
+  background-color: $primary-color
   opacity: 1
 
 section
@@ -42,13 +42,13 @@ section:not(.hero):nth-child(even)
 hr
 	width: 250px
 	height: 3px
-	background-color: $primary-blue
+	background-color: $primary-color
 	border: 0
 	margin-bottom: 50px
 
 section h3.title
 	text-transform: capitalize
-	font: bold 32px "Open Sans", sans-serif
+	font: 700 32px "Open Sans", sans-serif
 	margin-bottom: 30px
 	text-align: center
 
@@ -78,14 +78,22 @@ header
   z-index: 1
 
 header h2
-		font-family: "Quicksand", sans-serif
+	font-family: "Quicksand", sans-serif
 
 header nav
-  	display: flex
-  	margin-right: -15px
+	display: flex
+	margin-right: -15px
+
+header.dark h2 a
+	color: $primary-color
 
 header nav .link
-			margin: 0 15px
+	margin: 0 15px
+
+header.dark nav .link
+	color: $primary-color
+
+
 
 // Hero
 
@@ -134,20 +142,41 @@ header nav .link
 	flex-basis: 50%
 	text-align: center
 
-.workshops .grid li i
-	color: #8c9eff
+	.grid li i
+		color: $primary-color
 
 .workshops .grid li h4
-	font: 30px "Quicksand", sans-serif
+	font: 700 30px "Quicksand", sans-serif
 	margin: 25px 0 5px
 
 .workshops .grid li h5
-	font: 18px "Quicksand", sans-serif
+	font: 200 18px "Open Sans", sans-serif
 	margin-bottom: 24px
 
 .workshops a.btn
 	padding: 14px 24px
-	background-color: #8c9eff
+	background-color: $primary-color
+
+// Gallery
+
+.grid
+	width: 100%
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+
+.gallery .grid li
+	height: 350px
+	padding: 20px
+	background-clip: content-box
+	background-size: cover
+	background-position: center
+
+.gallery .grid li.small
+	flex-basis: 30%
+
+.gallery .grid li.large
+	flex-basis: 70%
 
 // Testimonials
 
