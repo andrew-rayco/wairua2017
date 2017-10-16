@@ -29,12 +29,16 @@ ShallowWrapper {
                     src="http://placehold.it/400x300"
           />
 </div>,
-        <h3>
-          Shane
-</h3>,
-        <p>
-          Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+        <div
+          className="about-text"
+>
+          <h3>
+                    Shane
+          </h3>
+          <p>
+                    Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+          </p>
+</div>,
         <div
           className="about-image"
 >
@@ -43,12 +47,16 @@ ShallowWrapper {
                     src="http://placehold.it/400x300"
           />
 </div>,
-        <h3>
-          Jen
-</h3>,
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+        <div
+          className="about-text"
+>
+          <h3>
+                    Jen
+          </h3>
+          <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+          </p>
+</div>,
       ],
       "className": "about",
     },
@@ -96,22 +104,42 @@ ShallowWrapper {
         "key": null,
         "nodeType": "host",
         "props": Object {
-          "children": "Shane",
+          "children": Array [
+            <h3>
+              Shane
+</h3>,
+            <p>
+              Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+          ],
+          "className": "about-text",
         },
         "ref": null,
-        "rendered": "Shane",
-        "type": "h3",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-        },
-        "ref": null,
-        "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-        "type": "p",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Shane",
+            },
+            "ref": null,
+            "rendered": "Shane",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+            },
+            "ref": null,
+            "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -144,22 +172,42 @@ ShallowWrapper {
         "key": null,
         "nodeType": "host",
         "props": Object {
-          "children": "Jen",
+          "children": Array [
+            <h3>
+              Jen
+</h3>,
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+          ],
+          "className": "about-text",
         },
         "ref": null,
-        "rendered": "Jen",
-        "type": "h3",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-        },
-        "ref": null,
-        "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-        "type": "p",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Jen",
+            },
+            "ref": null,
+            "rendered": "Jen",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+            },
+            "ref": null,
+            "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "section",
@@ -182,12 +230,16 @@ ShallowWrapper {
                         src="http://placehold.it/400x300"
             />
 </div>,
-          <h3>
-            Shane
-</h3>,
-          <p>
-            Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+          <div
+            className="about-text"
+>
+            <h3>
+                        Shane
+            </h3>
+            <p>
+                        Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+            </p>
+</div>,
           <div
             className="about-image"
 >
@@ -196,12 +248,16 @@ ShallowWrapper {
                         src="http://placehold.it/400x300"
             />
 </div>,
-          <h3>
-            Jen
-</h3>,
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+          <div
+            className="about-text"
+>
+            <h3>
+                        Jen
+            </h3>
+            <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+            </p>
+</div>,
         ],
         "className": "about",
       },
@@ -249,22 +305,42 @@ ShallowWrapper {
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": "Shane",
+            "children": Array [
+              <h3>
+                Shane
+</h3>,
+              <p>
+                Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+            ],
+            "className": "about-text",
           },
           "ref": null,
-          "rendered": "Shane",
-          "type": "h3",
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-          },
-          "ref": null,
-          "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-          "type": "p",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Shane",
+              },
+              "ref": null,
+              "rendered": "Shane",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+              },
+              "ref": null,
+              "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -297,22 +373,42 @@ ShallowWrapper {
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": "Jen",
+            "children": Array [
+              <h3>
+                Jen
+</h3>,
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+            ],
+            "className": "about-text",
           },
           "ref": null,
-          "rendered": "Jen",
-          "type": "h3",
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-          },
-          "ref": null,
-          "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-          "type": "p",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jen",
+              },
+              "ref": null,
+              "rendered": "Jen",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+              },
+              "ref": null,
+              "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "section",
