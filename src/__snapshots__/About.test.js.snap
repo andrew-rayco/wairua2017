@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          About Us
+</h2>,
+        <div
+          className="about-image"
+>
+          <img
+                    alt="Shane"
+                    src="http://placehold.it/400x300"
+          />
+</div>,
+        <h3>
+          Shane
+</h3>,
+        <p>
+          Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+        <div
+          className="about-image"
+>
+          <img
+                    alt="Shane"
+                    src="http://placehold.it/400x300"
+          />
+</div>,
+        <h3>
+          Jen
+</h3>,
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+      ],
+      "className": "about",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "About Us",
+        },
+        "ref": null,
+        "rendered": "About Us",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="Shane"
+            src="http://placehold.it/400x300"
+/>,
+          "className": "about-image",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Shane",
+            "src": "http://placehold.it/400x300",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Shane",
+        },
+        "ref": null,
+        "rendered": "Shane",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+        },
+        "ref": null,
+        "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="Shane"
+            src="http://placehold.it/400x300"
+/>,
+          "className": "about-image",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Shane",
+            "src": "http://placehold.it/400x300",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Jen",
+        },
+        "ref": null,
+        "rendered": "Jen",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+        },
+        "ref": null,
+        "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+        "type": "p",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            About Us
+</h2>,
+          <div
+            className="about-image"
+>
+            <img
+                        alt="Shane"
+                        src="http://placehold.it/400x300"
+            />
+</div>,
+          <h3>
+            Shane
+</h3>,
+          <p>
+            Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+          <div
+            className="about-image"
+>
+            <img
+                        alt="Shane"
+                        src="http://placehold.it/400x300"
+            />
+</div>,
+          <h3>
+            Jen
+</h3>,
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+        ],
+        "className": "about",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About Us",
+          },
+          "ref": null,
+          "rendered": "About Us",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Shane"
+              src="http://placehold.it/400x300"
+/>,
+            "className": "about-image",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Shane",
+              "src": "http://placehold.it/400x300",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Shane",
+          },
+          "ref": null,
+          "rendered": "Shane",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+          },
+          "ref": null,
+          "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Shane"
+              src="http://placehold.it/400x300"
+/>,
+            "className": "about-image",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Shane",
+              "src": "http://placehold.it/400x300",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Jen",
+          },
+          "ref": null,
+          "rendered": "Jen",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+          },
+          "ref": null,
+          "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+          "type": "p",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

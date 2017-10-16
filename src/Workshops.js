@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Workshops = (props) => {
-  console.log(props, window)
   return (
     <section className={window.location.pathname !== '/' ? 'workshops top-margin' : 'workshops'}>
       <h3 className="title">Our upcoming workshops</h3>
