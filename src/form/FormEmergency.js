@@ -18,7 +18,7 @@ const FormEmergency = () => {
       <div className="row">
         <div className="four columns">
           <label htmlFor="Cellphone" id="Cellphone-ariaLabel">Cell phone</label>
-          <input id="Cellphone" name="Cellphone" type="text" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/></div>
+          <input id="Cellphone" name="Cellphone" type="tel" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/></div>
         <div className="four columns">
           <label htmlFor="Emergencycontact2" id="Emergencycontact2-ariaLabel">Emergency contact 2</label>
           <input id="Emergencycontact2" name="Emergencycontact2" type="text" aria-labelledby="Emergencycontact2-ariaLabel"/></div>
@@ -29,10 +29,10 @@ const FormEmergency = () => {
       <div className="row">
         <div className="four columns">
           <label htmlFor="Homephone" id="Homephone-ariaLabel">Home phone</label>
-          <input id="Homephone" name="Homephone" type="text" aria-labelledby="Homephone-ariaLabel"/></div>
+          <input id="Homephone" name="Homephone" type="tel" aria-labelledby="Homephone-ariaLabel"/></div>
         <div className="four columns">
           <label htmlFor="Cellphone" id="Cellphone-ariaLabel">Cell phone</label>
-          <input id="Cellphone" name="Cellphone" type="text" aria-labelledby="Cellphone-ariaLabel"/></div>
+          <input id="Cellphone" name="Cellphone" type="tel" aria-labelledby="Cellphone-ariaLabel"/></div>
       </div>
     </fieldset>
   )

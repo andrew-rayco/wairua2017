@@ -42,22 +42,19 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Teen Adventure Camp</h1>
-        <h2>Registration Form</h2>
+      <section className="registration-form">
+        <h3 className="title">Teen Adventure Camp</h3>
+        <h4>Registration Form</h4>
         <form name="teen-camp" onChange={(e) => this.handleChange(e)} onSubmit={(e) => this.handleSubmit(e)}>
           <FormParent />
           {this.addExtraChildren()}
           <button type="button" onClick={(e) => this.handleClick(e)}>Add additional child</button>
           <FormEmergency/>
-
-          <div className="row">
-            <input type="submit" value="Submit" className="submit"/>
-          </div>
+          
+          <input type="submit" value="Submit" className="submit"/>
 
         </form>
-
-      </div>
+      </section>
     )
   }
 }

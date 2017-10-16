@@ -21,15 +21,15 @@ const FormParent = () => {
       <div className="row">
         <div className="four columns">
           <label htmlFor="Homephone" id="Homephone-ariaLabel">Home phone</label>
-          <input id="Homephone" name="Homephone" type="text" aria-labelledby="Homephone-ariaLabel"/>
+          <input id="Homephone" name="Homephone" type="tel" aria-labelledby="Homephone-ariaLabel"/>
         </div>
         <div className="four columns">
           <label htmlFor="Workphone" id="Workphone-ariaLabel">Work phone</label>
-          <input id="Workphone" name="Workphone" type="text" aria-labelledby="Workphone-ariaLabel"/>
+          <input id="Workphone" name="Workphone" type="tel" aria-labelledby="Workphone-ariaLabel"/>
         </div>
         <div className="four columns">
           <label htmlFor="Cellphone" id="Cellphone-ariaLabel">Cell phone</label>
-          <input id="Cellphone" name="Cellphone" type="text" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/>
+          <input id="Cellphone" name="Cellphone" type="tel" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/>
         </div>
       </div>
     </fieldset>

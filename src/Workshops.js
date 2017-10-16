@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Workshops = () => {
+const Workshops = (props) => {
   return (
-    <section className="workshops">
+    <section className={props.location.pathname !== '/' ? 'workshops top-margin' : 'workshops'}>
       <h3 className="title">Our upcoming workshops</h3>
       <p>We offer a variety of workshops. Whether you're a wookie, sith lord or even Jabba the Hutt, we have the perfect workshop for you.</p>
       <hr/>
