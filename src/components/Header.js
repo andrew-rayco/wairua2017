@@ -3,6 +3,8 @@ import React from 'react'
 import Nav from './Nav'
 
 const Header = (props) => {
+  console.log(window.location.hash)
+  
   return (
     <header className={props.location.pathname !== '/'
       ? 'dark'

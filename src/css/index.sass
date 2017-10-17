@@ -17,7 +17,7 @@ a
   text-decoration: none
   opacity: 0.75
   transition: .3s opacity
-  color: #fff
+  color: $primary-color
 
 a:hover
   opacity: 1
@@ -53,7 +53,7 @@ section h3.title
 	text-align: center
 
 section.top-margin
-	padding-top: 130px
+	padding-top: 9em
 
 section p
 	max-width: 775px
@@ -77,8 +77,10 @@ header
   padding: 35px 100px 0
   animation: 1s fadein 0.5s forwards
   opacity: 0
-  color: $font-color
   z-index: 1
+
+header a
+	color: #fff
 
 header h2
 	font-family: "Quicksand", sans-serif
@@ -136,7 +138,8 @@ header.dark nav .link
   margin-bottom: 40px
 
 .hero a.btn
-  padding: 20px 46px
+	color: #fff
+	padding: 20px 46px
 
 .hero-content-area
   opacity: 0
@@ -172,6 +175,7 @@ header.dark nav .link
 .workshops a.btn
 	padding: 14px 24px
 	background-color: $primary-color
+	color: #fff
 
 // Gallery
 
@@ -213,13 +217,15 @@ header.dark nav .link
 
 .contact form .btn
 	padding: 18px 42px
+	color: #fff
 
 .contact form input
 	padding: 15px
 	margin-right: 30px
 	font-size: 18px
 	color: $font-color
-	border: 1px solid #ccc
+	border: none
+	box-shadow: 0px 0px 5px $primary-color
 	flex: 1
 	border-radius: 4px
 
@@ -244,6 +250,9 @@ footer p
 	font-size: 14px
 	opacity: 0.6
 	align-self: center
+
+footer a
+	color: #fff
 
 // Form
 
@@ -284,7 +293,7 @@ footer p
 
 
 .registration-form form label
-	// display: block
+	display: block
 
 .registration-form form input,
 .registration-form form textarea
@@ -298,7 +307,9 @@ footer p
 	margin-bottom: 18px
 
 .registration-form form input[type="tel"]
-	width: 100px
+	// width: 10px
+	// min-width: 200px
+	display: block
 
 .registration-form form button,
 .registration-form form input[type="submit"]

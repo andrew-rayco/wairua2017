@@ -21,7 +21,7 @@ const FormParent = () => {
 
         <div className="input-section">
           <label htmlFor="Fulladdress" id="Fulladdress-ariaLabel">Full address
-            <textarea id="Fulladdress" name="Fulladdress" type="text" aria-labelledby="Fulladdress-ariaLabel" className="required" title="Full address. This is a required field"/>
+            <input id="Fulladdress" name="Fulladdress" type="text" aria-labelledby="Fulladdress-ariaLabel" className="required" title="Full address. This is a required field"/>
           </label>
         </div>
 

@@ -27,6 +27,8 @@ const FormEmergency = () => {
           <input id="Cellphone" name="Cellphone" type="tel" aria-labelledby="Cellphone-ariaLabel" className="required" title="Cell phone. This is a required field"/>
         </div>
 
+        <hr/>
+
         <div className="input-section">
           <label htmlFor="Emergencycontact2" id="Emergencycontact2-ariaLabel">Emergency contact 2</label>
           <input id="Emergencycontact2" name="Emergencycontact2" type="text" aria-labelledby="Emergencycontact2-ariaLabel"/>
