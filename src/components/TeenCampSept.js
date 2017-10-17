@@ -2,19 +2,18 @@ import React from 'react'
 
 const TeenCampSept = () => {
   return (
-    <div className="camp">
-        <h2>Teenage Adventure Camp</h2>
-        <h3>September 9th to 10th, 2017</h3>
-        <div className="camp-intro">
-          <p>Are you an adventure seeking 13-18 year old? Come and join us on our next exciting Teenage Adventure Camp.
+    <section className="camp top-margin">
+        <h3 className="title">Teenage Adventure Camp</h3>
+        <h4>September 9th to 10th, 2017</h4>
+        <hr/>
+        <p>Are you an adventure seeking 13-18 year old? Come and join us on our next exciting Teenage Adventure Camp.
           Make lots of new friends, be inspired, gain self confidence, and take part in a variety of fun activities that will transform your wellbeing.</p>
+        <div className="adventure-image">
+          <img src='images/mountain1.jpg' alt="adventure camp" />
         </div>
-      <div className="row">
-        <div className="six columns">
-          <img src='images/adventure-camp.jpg' alt="adventure camp" />
-        </div>
-        <div className="six columns">
-          <h4>What is included</h4>
+        <hr/>
+        <div className="adventure-text">
+          <h5>What is included</h5>
           <ul>
             <li>Develop self confidence, leadership and communication skills</li>
             <li>Learn valuable self defence</li>
@@ -26,32 +25,31 @@ const TeenCampSept = () => {
             <li>Take home an exciting goodie bag</li>
           </ul>
         </div>
-      </div>
 
-        <h4>Your wellbeing investment: <span>$140*</span></h4>
+        <h5>Your wellbeing investment: <span>$140*</span></h5>
         <p>Price includes snacks, lunch & dinner on Saturday, breakfast on Sunday, all workshops & activities, plus one nights accommodation.<br />(*family discount & payment options available on application)</p>
-      <div className="row">
-        <div className="four columns">
-          <h4>Venue</h4>
+      <div className="adventure-details">
+        <div className="adventure-details--item">
+          <h5>Venue</h5>
           <p>
             Pukerua Bay Scout Hall<br />
             Kotipu Place,<br />
             Pukerua Bay
           </p>
         </div>
-        <div className="four columns">
-          <h4>Time</h4>
+        <div className="adventure-details--item">
+          <h5>Time</h5>
           <p>Arrive 10am Saturday<br />
             Pick up 11am Sunday
           </p>
         </div>
-        <div className="four columns">
-          <h4>Register</h4>
-          <a href="/#/form" className="button">Register Now</a>
+        <div className="adventure-details--item">
+          <h5>Register</h5>
+          <a href="/#/form" className="btn">Register Now</a>
           <p>Alternatively, please contact us on <a href="mailto:wairuaadventures@gmail.com">wairuaadventures@gmail.com</a></p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
