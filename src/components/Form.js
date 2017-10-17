@@ -50,7 +50,7 @@ export default class Form extends React.Component {
           {this.addExtraChildren()}
           <button type="button" onClick={(e) => this.handleClick(e)}>Add additional child</button>
           <FormEmergency/>
-          
+
           <input type="submit" value="Submit" className="submit"/>
 
         </form>
