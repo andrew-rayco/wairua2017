@@ -1,0 +1,276 @@
+$primary-color: #e66
+$text-color: #4a4a4a
+$white: #f1f1ee
+
+html
+  overflow-x: hidden
+
+
+body
+  margin: 0
+  padding: 0
+  overflow-x: hidden
+  font-family: 'Source Sans Pro', sans-serif
+  text-align: center
+  background: #f1f1ee
+  color: $text-color
+
+
+.container
+  background: $white
+  padding: 0 2em
+  min-height: 100%
+
+
+
+
+/* Typography */
+
+h2, h4
+  font-family: 'Amatic SC', cursive
+
+
+
+h1
+  font-family: 'Amatic SC', cursive
+  font-size: 50px
+  font-weight: 400
+  line-height: 60px
+  margin-bottom: 48px
+
+
+h3
+  font-weight: 700
+  font-size: 26px
+
+
+h4
+  text-transform: uppercase
+  font-size: 27px
+  letter-spacing: 1px
+
+
+p
+  color: $text-color
+  font-size: 18px
+  font-weight: 500
+  line-height: 26px
+  margin-bottom: 36px
+  max-width: 900px
+  margin-left: auto
+  margin-right: auto
+
+
+a
+  color: $text-color
+  display: inline
+  font-style: italic
+  font-weight: 700
+  padding: 0 5px
+  text-decoration: none
+  transition: color 1s ease
+
+
+a:hover
+  color: $primary-color
+  opacity: 0.7
+  border-bottom: 3px solid $primary-color
+
+
+img
+  width: 100%
+
+
+ul
+  /*line-height: 1.6em*/
+  list-style-image: url(../images/checked.svg)
+  text-align: left
+  padding-left: 1em
+  text-indent: -1.1em
+
+
+.full-width-div
+  margin: 0 -9999rem
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem
+
+
+/* Header */
+
+.header
+  height: 80px
+  margin-bottom: 3em
+  background: $white
+  border-bottom: 14px solid $primary-color
+
+
+.header h1
+  display: inline-block
+  float: left
+  height: 80px
+  margin-top: 10px
+  margin-bottom: 0
+
+
+.header h1 a
+  font-style: normal
+  font-weight: normal
+
+
+.header h1 a:hover
+  border-bottom: 0
+
+
+.header nav
+  display: inline-block
+  float: right
+  margin-top: 30px
+
+
+.header nav a
+  font-family: 'Source Sans Pro', sans-serif
+  font-size: 16px
+  font-style: normal
+  font-weight: 200
+  letter-spacing: 1px
+  margin-left: 1em
+
+
+
+/* Feature */
+
+
+.feature
+  min-height: 400px
+  background-image: url('../images/wairua-retreats-inspo.jpg')
+  background-position: center
+  background-size: 0.9%
+  margin-top: -3em
+  margin-bottom: 2em
+
+
+.feature p
+  font-size: 24px
+  line-height: 36px
+  color: $white
+  text-shadow: 3px 3px 3px $text-color
+
+
+.feature h2
+  font-family: 'Source Sans Pro', sans-serif
+  font-size: 6em
+  font-weight: 700
+  padding-top: 80px
+  color: $white
+  text-shadow: 2px 2px 4px $text-color
+
+
+
+
+/* Workshops */
+
+.workshop
+  margin-bottom: 3em
+  padding: 1em 3em
+  background: #dfdfdf
+  border-radius: 4px
+  transition: background 0.5s ease
+
+
+.workshop:hover
+  background: $white
+
+
+.workshop button
+  background: $white
+  border: 2px solid $primary-color
+
+
+.workshop button:hover
+  background: #eee
+
+
+.block-link
+  font-style: normal
+  margin: 0
+  padding: 0
+
+
+/* Camp */
+
+.button
+  background: $primary-color
+  border: 1px solid $primary-color
+  color: $white
+  font-style: normal
+  transition: background 0.3s ease
+
+
+.button:hover
+  background: $white
+  border: 1px solid $text-color
+  color: $text-color
+
+
+h4 span
+  font-weight: 700
+
+
+.camp img
+  margin-bottom: 2em
+
+
+/* About */
+
+.text-left
+  text-align: left
+
+
+
+/* form */
+
+form
+  border-radius: 4px
+  padding: 1em
+
+
+fieldset
+  margin-top: 2em
+
+
+legend
+  font-size: 1.4em
+
+
+input, textarea
+  width: 100%
+  box-sizing: border-box
+
+
+input[type="submit"]
+  width: 30.3333%
+  float: right
+  background: $text-color
+  border: 1px solid $text-color
+  color: $white
+
+
+input[type="submit"]:hover
+  background: $primary-color
+  color: $text-color
+  border: $primary-color
+
+
+
+/* Footer */
+
+.footer
+  background: $primary-color
+  margin-bottom: 0
+  width: 100%
+
+
+.footer p
+  font-size: 12px
+  opacity: 0.7
+  margin: 1.4em auto 2em
