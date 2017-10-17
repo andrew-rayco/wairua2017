@@ -24,7 +24,7 @@ const FormChild = (props) => {
           </label>
         </div>
 
-        <div className="input-section">
+        <div className="input-section radio">
           <label>Gender
             <label className="radio-label" htmlFor="Sex-female">Female
               <input id="Sex-female" name="sex" type="radio" aria-labelledby="Sex-ariaLabel-female" value="Female"/>
