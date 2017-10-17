@@ -1,7 +1,6 @@
 import React from 'react'
 
 const FormChild = (props) => {
-  console.log(props)
   let childNum = props.childNum
   return (
     <fieldset className="fieldset-child">
