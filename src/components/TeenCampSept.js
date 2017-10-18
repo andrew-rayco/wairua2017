@@ -26,8 +26,7 @@ const TeenCampSept = () => {
         </ul>
       </div>
 
-      <h5>Your wellbeing investment:
-        <span>$140*</span>
+      <h5>Your wellbeing investment: <span>$140*</span>
       </h5>
       <p>Price includes snacks, lunch & dinner on Saturday, breakfast on Sunday, all workshops & activities, plus one nights accommodation.<br/>(*family discount & payment options available on application)</p>
 
