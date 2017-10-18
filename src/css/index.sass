@@ -157,12 +157,29 @@ header.dark nav .link
 
 // Workshops
 
+.workshops > h3,
+.workshops > p
+	margin-top: 100px
+	opacity: 0
+	animation: 0.5s slideDown ease-out forwards
+
+@keyframes slideDown
+	100%
+		margin-top: inherit
+		opacity: 1
+
 .workshops .grid li
 	padding: 50px
 	flex-basis: 50%
 	text-align: center
+	opacity: 0
+	animation: 1s fadeup 0.5s ease-in forwards
 
-	.grid li i
+@keyframes fadeup
+	100%
+		opacity: 1
+
+.grid li i
 		color: $primary-color
 
 .workshops .grid li h4
