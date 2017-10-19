@@ -4,7 +4,8 @@ const Workshops = (props) => {
   return (
     <section className={ window.location.hash !== '#/' ? 'workshops top-margin' : 'workshops' }>
       <h3 className="title">Our upcoming workshops</h3>
-      <p>We offer a variety of workshops. Whether you're a wookie, sith lord or even Jabba the Hutt, we have the perfect workshop for you.</p>
+      <p>As we guide you through a variety of fun activities and creative workshops we will encourage self awareness, self confidence, mindful communication and offer you inspirational techniques to help focus and calm your mind.</p>
+      <p>The perfect blend to balance you in Mind, Body &amp; Spirit!</p>
       <hr/>
       <ul className="grid">
         <li>
