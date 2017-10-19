@@ -18,47 +18,62 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h3
+          className="title"
+>
           About Us
-</h2>,
+</h3>,
+        <p>
+          Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.
+</p>,
+        <p>
+          We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!
+</p>,
+        <p>
+          At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!
+</p>,
         <div
-          className="about-image"
+          className="bios"
 >
-          <img
-                    alt="Shane"
-                    src="http://placehold.it/400x300"
-          />
-</div>,
-        <div
-          className="about-text"
->
-          <h3>
-                    Shane
-          </h3>
-          <p>
-                    Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-          </p>
-</div>,
-        <div
-          className="about-image"
->
-          <img
-                    alt="Shane"
-                    src="http://placehold.it/400x300"
-          />
-</div>,
-        <div
-          className="about-text"
->
-          <h3>
-                    Jen
-          </h3>
-          <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-          </p>
+          <div
+                    className="about-image"
+          >
+                    <img
+                              alt="Shane"
+                              src="../images/shane.jpg"
+                    />
+          </div>
+          <div
+                    className="about-text"
+          >
+                    <h4>
+                              Shane
+                    </h4>
+                    <p>
+                              Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                    </p>
+          </div>
+          <div
+                    className="about-image"
+          >
+                    <img
+                              alt="Jen"
+                              src="../images/jen.jpg"
+                    />
+          </div>
+          <div
+                    className="about-text"
+          >
+                    <h4>
+                              Jen
+                    </h4>
+                    <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                    </p>
+          </div>
 </div>,
       ],
-      "className": "about",
+      "className": "about top-margin",
     },
     "ref": null,
     "rendered": Array [
@@ -68,36 +83,44 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "About Us",
+          "className": "title",
         },
         "ref": null,
         "rendered": "About Us",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
         "key": null,
         "nodeType": "host",
         "props": Object {
-          "children": <img
-            alt="Shane"
-            src="http://placehold.it/400x300"
-/>,
-          "className": "about-image",
+          "children": "Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "Shane",
-            "src": "http://placehold.it/400x300",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
+        "rendered": "Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!",
         },
-        "type": "div",
+        "ref": null,
+        "rendered": "We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!",
+        },
+        "ref": null,
+        "rendered": "At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!",
+        "type": "p",
       },
       Object {
         "instance": null,
@@ -105,14 +128,44 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h3>
-              Shane
-</h3>,
-            <p>
-              Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+            <div
+              className="about-image"
+>
+              <img
+                            alt="Shane"
+                            src="../images/shane.jpg"
+              />
+</div>,
+            <div
+              className="about-text"
+>
+              <h4>
+                            Shane
+              </h4>
+              <p>
+                            Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+              </p>
+</div>,
+            <div
+              className="about-image"
+>
+              <img
+                            alt="Jen"
+                            src="../images/jen.jpg"
+              />
+</div>,
+            <div
+              className="about-text"
+>
+              <h4>
+                            Jen
+              </h4>
+              <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+              </p>
+</div>,
           ],
-          "className": "about-text",
+          "className": "bios",
         },
         "ref": null,
         "rendered": Array [
@@ -121,90 +174,136 @@ ShallowWrapper {
             "key": null,
             "nodeType": "host",
             "props": Object {
-              "children": "Shane",
-            },
-            "ref": null,
-            "rendered": "Shane",
-            "type": "h3",
-          },
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-            },
-            "ref": null,
-            "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": <img
-            alt="Shane"
-            src="http://placehold.it/400x300"
+              "children": <img
+                alt="Shane"
+                src="../images/shane.jpg"
 />,
-          "className": "about-image",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "Shane",
-            "src": "http://placehold.it/400x300",
+              "className": "about-image",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Shane",
+                "src": "../images/shane.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
           },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h3>
-              Jen
-</h3>,
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Shane
+</h4>,
+                <p>
+                  Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
 </p>,
-          ],
-          "className": "about-text",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Jen",
+              ],
+              "className": "about-text",
             },
             "ref": null,
-            "rendered": "Jen",
-            "type": "h3",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Shane",
+                },
+                "ref": null,
+                "rendered": "Shane",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                },
+                "ref": null,
+                "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
             "key": null,
             "nodeType": "host",
             "props": Object {
-              "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+              "children": <img
+                alt="Jen"
+                src="../images/jen.jpg"
+/>,
+              "className": "about-image",
             },
             "ref": null,
-            "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-            "type": "p",
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Jen",
+                "src": "../images/jen.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Jen
+</h4>,
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+              ],
+              "className": "about-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jen",
+                },
+                "ref": null,
+                "rendered": "Jen",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                },
+                "ref": null,
+                "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
           },
         ],
         "type": "div",
@@ -219,47 +318,62 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h3
+            className="title"
+>
             About Us
-</h2>,
+</h3>,
+          <p>
+            Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.
+</p>,
+          <p>
+            We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!
+</p>,
+          <p>
+            At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!
+</p>,
           <div
-            className="about-image"
+            className="bios"
 >
-            <img
-                        alt="Shane"
-                        src="http://placehold.it/400x300"
-            />
-</div>,
-          <div
-            className="about-text"
->
-            <h3>
-                        Shane
-            </h3>
-            <p>
-                        Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-            </p>
-</div>,
-          <div
-            className="about-image"
->
-            <img
-                        alt="Shane"
-                        src="http://placehold.it/400x300"
-            />
-</div>,
-          <div
-            className="about-text"
->
-            <h3>
-                        Jen
-            </h3>
-            <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-            </p>
+            <div
+                        className="about-image"
+            >
+                        <img
+                                    alt="Shane"
+                                    src="../images/shane.jpg"
+                        />
+            </div>
+            <div
+                        className="about-text"
+            >
+                        <h4>
+                                    Shane
+                        </h4>
+                        <p>
+                                    Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                        </p>
+            </div>
+            <div
+                        className="about-image"
+            >
+                        <img
+                                    alt="Jen"
+                                    src="../images/jen.jpg"
+                        />
+            </div>
+            <div
+                        className="about-text"
+            >
+                        <h4>
+                                    Jen
+                        </h4>
+                        <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                        </p>
+            </div>
 </div>,
         ],
-        "className": "about",
+        "className": "about top-margin",
       },
       "ref": null,
       "rendered": Array [
@@ -269,36 +383,44 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "About Us",
+            "className": "title",
           },
           "ref": null,
           "rendered": "About Us",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": <img
-              alt="Shane"
-              src="http://placehold.it/400x300"
-/>,
-            "className": "about-image",
+            "children": "Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "Shane",
-              "src": "http://placehold.it/400x300",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
+          "rendered": "Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!",
           },
-          "type": "div",
+          "ref": null,
+          "rendered": "We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation & Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!",
+          },
+          "ref": null,
+          "rendered": "At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!",
+          "type": "p",
         },
         Object {
           "instance": null,
@@ -306,14 +428,44 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h3>
-                Shane
-</h3>,
-              <p>
-                Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
-</p>,
+              <div
+                className="about-image"
+>
+                <img
+                                alt="Shane"
+                                src="../images/shane.jpg"
+                />
+</div>,
+              <div
+                className="about-text"
+>
+                <h4>
+                                Shane
+                </h4>
+                <p>
+                                Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                </p>
+</div>,
+              <div
+                className="about-image"
+>
+                <img
+                                alt="Jen"
+                                src="../images/jen.jpg"
+                />
+</div>,
+              <div
+                className="about-text"
+>
+                <h4>
+                                Jen
+                </h4>
+                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+                </p>
+</div>,
             ],
-            "className": "about-text",
+            "className": "bios",
           },
           "ref": null,
           "rendered": Array [
@@ -322,90 +474,136 @@ ShallowWrapper {
               "key": null,
               "nodeType": "host",
               "props": Object {
-                "children": "Shane",
-              },
-              "ref": null,
-              "rendered": "Shane",
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-              },
-              "ref": null,
-              "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="Shane"
-              src="http://placehold.it/400x300"
+                "children": <img
+                  alt="Shane"
+                  src="../images/shane.jpg"
 />,
-            "className": "about-image",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "Shane",
-              "src": "http://placehold.it/400x300",
+                "className": "about-image",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Shane",
+                  "src": "../images/shane.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h3>
-                Jen
-</h3>,
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    Shane
+</h4>,
+                  <p>
+                    Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
 </p>,
-            ],
-            "className": "about-text",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Jen",
+                ],
+                "className": "about-text",
               },
               "ref": null,
-              "rendered": "Jen",
-              "type": "h3",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Shane",
+                  },
+                  "ref": null,
+                  "rendered": "Shane",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                  },
+                  "ref": null,
+                  "rendered": "Laboriosam animi, optio sit quidem. Laboriosam lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
               "key": null,
               "nodeType": "host",
               "props": Object {
-                "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                "children": <img
+                  alt="Jen"
+                  src="../images/jen.jpg"
+/>,
+                "className": "about-image",
               },
               "ref": null,
-              "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
-              "type": "p",
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Jen",
+                  "src": "../images/jen.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    Jen
+</h4>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.
+</p>,
+                ],
+                "className": "about-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jen",
+                  },
+                  "ref": null,
+                  "rendered": "Jen",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                  },
+                  "ref": null,
+                  "rendered": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla saepe ratione itaque cum amet, recusandae non perspiciatis quasi, beatae soluta, perferendis tempora minima nesciunt quaerat! Laboriosam animi, optio sit quidem.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
             },
           ],
           "type": "div",
