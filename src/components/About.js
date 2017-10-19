@@ -6,7 +6,6 @@ const About = () => {
 
       <h3 className="title">About Us</h3>
         <p>Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.</p>
-        <p>Come and join us in some of the most beautiful locations around New Zealand and overseas and immerse yourself in an adventure that will leave you feeling energised, rejuvenated and inspired!</p>
         <p>We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation &amp; Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!</p>
         <p>At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!</p>
 

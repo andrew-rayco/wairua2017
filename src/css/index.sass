@@ -9,6 +9,11 @@ $primary-color: #3f51b5
 html
 	font: normal 16px sans-serif
 	color: $font-color
+	min-width: 350px
+
+@media (max-width: 600px)
+	html
+		font-size: 18px
 
 ul
   list-style: none
@@ -73,6 +78,9 @@ section p
 	section
 		padding: 50px 20px
 
+	// section.top-margin
+	// 	padding-top: 10em
+
 // Header
 
 header
@@ -108,6 +116,7 @@ header.dark nav .link
 .site-title
 	display: flex
 	align-items: center
+	min-width: 300px
 
 .site-title svg
 	margin-right: 1em
@@ -467,6 +476,16 @@ footer a
 	100%
 		background-color: $primary-color *2
 
+@media (max-width: 1100px)
+	.adventure-details
+		width: 100%
+
+@media (max-width: 800px)
+	.adventure-details
+		flex-direction: column
+		margin-bottom: 2em
+
+
 // About
 .about h4
 	font-size: 22px
@@ -486,6 +505,8 @@ footer a
 
 .bios img
 	width: 100%
+	margin-bottom: 1em
+
 
 
 
@@ -498,6 +519,8 @@ footer a
 	margin-top: 100px
 	animation: 0.7s slideUp ease-in-out forwards
 
+.registration-form p
+	max-width: 600px
 
 .registration-form form
 	max-width: 975px
@@ -534,7 +557,6 @@ footer a
 	color: #555
 	margin: 25px 0 5px
 
-
 .registration-form form label
 	display: block
 
@@ -543,15 +565,13 @@ footer a
 	border: none
 	box-shadow: 0px 0px 3px $primary-color
 	width: 100%
-	min-width: 350px
+	min-width: 250px
 	border-radius: 4px
 	padding: 5px 10px
 	margin-top: 4px
 	margin-bottom: 18px
 
 .registration-form form input[type="tel"]
-	// width: 10px
-	// min-width: 200px
 	display: block
 
 .registration-form form button,
@@ -568,7 +588,7 @@ footer a
 .registration-form form input[type="submit"]
 	background: #5cb85c
 	border: none
-	box-shadow: 0 0 5px #5cb85c
+	box-shadow: 0 0 3px #5cb85c
 	align-self: flex-end
 
 .registration-form form button
@@ -586,6 +606,13 @@ footer a
 
 .registration-form form .radio-label input
 	 box-shadow: none
+
+@media (max-width: 600px)
+	.registration-form form button
+		width: 60vw
+
+	.registration-form form input[type="submit"]
+		width: 100%
 
 // .radio
 // 	display: flex
