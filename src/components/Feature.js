@@ -12,8 +12,8 @@ const Feature = () => {
     <section className="hero">
       <div className="background-image" style={style}></div>
       <div className="hero-content-area">
-        <h1>mind, body, spirit.</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+        <h1>Mind, body, spirit.</h1>
+        <h3>Balance your mind, connect with your body and reawaken your spirit</h3>
         <a href="/#/workshops" className="btn">Learn more</a>
       </div>
     </section>
