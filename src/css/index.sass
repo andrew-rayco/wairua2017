@@ -51,7 +51,8 @@ section h3.title
 	font: 700 32px "Open Sans", sans-serif
 	margin-bottom: 35px
 	text-align: center
-	animation: 0.5s slideUp ease-out forwards
+	opacity: 0
+	animation: 1s slideUp ease-out forwards
 
 section.top-margin
 	padding-top: 9em
@@ -67,6 +68,10 @@ section p
 @keyframes fadein
   100%
     opacity: 1
+
+@media (max-width: 800px)
+	section
+		padding: 50px 20px
 
 // Header
 
@@ -112,6 +117,18 @@ header.dark nav .link
 .dark svg path
 	fill: $primary-color
 
+@media (max-width: 800px)
+	header
+		padding: 20px 50px
+		flex-direction: column
+
+	header h2
+		margin-bottom: 15px
+
+	header nav
+		margin-top: 15px
+		margin-right: 0
+
 // Hero
 
 .hero
@@ -137,8 +154,9 @@ header.dark nav .link
 	letter-spacing: 0.02em
 
 .hero h3
-  font: normal 28px "Open Sans", sans-serif
-  margin-bottom: 54px
+	font: normal 28px "Open Sans", sans-serif
+	max-width: 800px
+	margin-bottom: 54px
 
 .hero a.btn
 	color: #fff
@@ -153,10 +171,62 @@ header.dark nav .link
   margin-top: 100px
   animation: 1s slidefade 1s forwards
 
+.hero-content-area img
+	width: 15vw
+	max-width: 120px
+
 @keyframes slidefade
 	100%
 		opacity: 1
 		margin-top: 0
+
+@media (max-width: 800px)
+	.hero
+		min-height: 800px
+
+	.hero h1
+		font-size: 48px
+
+	.hero h3
+		font-size: 24px
+
+	.hero a.btn
+		padding: 15px 40px
+
+	.hero-content-area img
+		width: 15vw
+		min-width: 80px
+
+// Intro
+
+.intro p
+	font-size: 22px
+
+p.intro-small
+	font-size: 16px
+
+.intro
+	padding-bottom: 3em
+
+p.accent
+	max-width: 500px
+	padding: 10px 40px 15px
+	margin: 1em 2em 3em
+	font-size: 16px
+	background: $primary-color + 150
+	border-radius: 4px
+
+.accent span
+	font-size: 26px
+	display: block
+
+@media (max-width: 800px)
+	.intro p
+		font-size: 19px
+
+	p.accent
+		font-size: 14px
+
 
 // Workshops
 
@@ -164,7 +234,7 @@ header.dark nav .link
 .workshops > p
 	margin-top: 100px
 	opacity: 0
-	animation: 0.5s slideUp ease-out forwards
+	animation: 0.7s slideUp ease-in-out forwards
 
 @keyframes slideUp
 	100%
@@ -184,6 +254,7 @@ header.dark nav .link
 
 .grid li i
 		color: $primary-color
+		opacity: 0.7
 
 .workshops .grid li h4
 	// font: 700 30px "Quicksand", sans-serif
@@ -203,6 +274,14 @@ header.dark nav .link
 .workshops a.btn:hover
 	background-color: $primary-color
 	animation: .3s hoverFade ease-out forwards
+
+@media (max-width: 800px)
+	.workshops .grid li
+		flex-basis: 100%
+		padding: 20px 20px 42px
+
+	.workshops .grid li:first-of-type
+		margin-bottom: 2em
 
 // Gallery
 
@@ -225,6 +304,16 @@ header.dark nav .link
 .gallery .grid li.large
 	flex-basis: 70%
 
+@media (max-width: 1100px)
+	.gallery .grid li.small,
+	.gallery .grid li.large
+		flex-basis: 50%
+
+@media (max-width: 800px)
+	.gallery .grid li.small,
+	.gallery .grid li.large
+		flex-basis: 100%
+
 // Testimonials
 
 .testimonials .quote
@@ -232,6 +321,14 @@ header.dark nav .link
 	font-weight: 300
 	line-height: 1.5
 	margin: 40px 0 25px
+
+@media (max-width)
+	.testimonials .quote
+		font-size: 18px
+		margin: 15px 0
+
+	.testimonials .author
+		font-size: 14px
 
 // Contact
 
@@ -260,6 +357,14 @@ header.dark nav .link
 	flex: 1
 	border-radius: 4px
 
+@media (max-width: 1000px)
+	.contact form input
+		flex-basis: 100%
+		margin: 0 0 20px
+
+	.contact form .btn
+		padding: 18px 30px
+
 // Footer
 
 footer
@@ -285,7 +390,15 @@ footer p
 footer a
 	color: #fff
 
+@media (max-width: 800px)
+	footer
+		flex-direction: column
 
+	footer p
+		margin-bottom: 20px
+
+	footer ul li
+		margin: 0 8px
 
 // Camp
 
@@ -355,11 +468,16 @@ footer a
 		background-color: $primary-color *2
 
 // About
+.about h4
+	font-size: 22px
+	margin: 0px 0 25px
+	text-align: center
+
 .bios
 	display: flex
 	flex-wrap: wrap
 	justify-content: space-around
-	// background: pink
+	margin-top: 2em
 
 .bios > div
 	flex-basis: 45%
@@ -370,6 +488,7 @@ footer a
 	width: 100%
 
 
+
 // Form
 .about h3,
 .about p,
@@ -377,7 +496,7 @@ footer a
 .registration-form p
 	opacity: 0
 	margin-top: 100px
-	animation: 0.5s slideUp ease-out forwards
+	animation: 0.7s slideUp ease-in-out forwards
 
 
 .registration-form form

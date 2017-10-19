@@ -12,8 +12,9 @@ const Feature = () => {
     <section className="hero">
       <div className="background-image" style={style}></div>
       <div className="hero-content-area">
+        <img src="/images/goal.svg" alt="Wairua icon"/>
         <h1>Mind, body, spirit.</h1>
-        <h3>Balance your mind, connect with your body and reawaken your spirit</h3>
+        <h3>Adventure retreats to balance your mind, connect with your body and reawaken your spirit</h3>
         <a href="/#/workshops" className="btn">Learn more</a>
       </div>
     </section>
