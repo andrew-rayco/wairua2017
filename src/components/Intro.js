@@ -3,7 +3,8 @@ import React from 'react'
 const Intro = () => {
   return (
     <section className="intro">
-      <h3 className="title">Wairua Adventures</h3>
+      <h2 className="title">Wairua Adventures</h2>
+      <h3 className="title">New Zealand</h3>
       <p className="intro-small">Are you ready to go on an exciting adventure for your mind, body &amp; spirit?</p>
       <hr/>
       <p>Wairua Adventures offers you a range of unique and creative retreats held in beautiful locations throughout New Zealand and overseas.</p>
