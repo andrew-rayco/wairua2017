@@ -1,0 +1,29 @@
+// Intro
+
+.intro p
+	font-size: 22px
+
+p.intro-small
+	font-size: 16px
+
+.intro
+	padding-bottom: 3em
+
+p.accent
+	max-width: 500px
+	padding: 10px 40px 15px
+	margin: 1em 2em 3em
+	font-size: 16px
+	background: $primary-color + 150
+	border-radius: 4px
+
+.accent span
+	font-size: 26px
+	display: block
+
+@include atMedium
+	.intro p
+		font-size: 19px
+
+	p.accent
+		font-size: 14px

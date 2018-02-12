@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build-css": "node-sass-chokidar -o src/css src/css",
-    "watch-css": "npm run build-css && node-sass -o src/css src/css --watch --recursive",
+    "watch-css": "npm run build-css && node-sass -o src/css --watch --recursive src/css",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",

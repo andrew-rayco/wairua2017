@@ -1,0 +1,54 @@
+// Workshops
+
+.workshops > h3,
+.workshops > p
+	margin-top: 100px
+	opacity: 0
+	animation: 0.7s slideUp ease-in-out forwards
+
+@keyframes slideUp
+	100%
+		margin-top: inherit
+		opacity: 1
+
+.workshops .grid li
+	padding: 50px
+	flex-basis: 50%
+	text-align: center
+	opacity: 0
+	animation: 1s fadeup 0.5s ease-in forwards
+
+@keyframes fadeup
+	100%
+		opacity: 1
+
+.grid li i
+		color: $primary-color
+		opacity: 0.7
+
+.workshops .grid li h4
+	// font: 700 30px "Quicksand", sans-serif
+	color: #555
+	font-size: 20px
+	margin: 25px 0 5px
+
+.workshops .grid li h5
+	font: 400 18px "Open Sans", sans-serif
+	margin-bottom: 24px
+
+.workshops a.btn
+	padding: 14px 24px
+	background-color: $primary-color
+	color: #fff
+
+.workshops a.btn:hover
+	background-color: $primary-color
+	animation: .3s hoverFade ease-out forwards
+
+@include atMedium
+	.workshops .grid li
+		flex-basis: 100%
+		padding: 20px 20px 42px
+
+	.workshops .grid li:first-of-type
+		margin-bottom: 2em

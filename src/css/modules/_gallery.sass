@@ -1,0 +1,30 @@
+// Gallery
+
+.grid
+	width: 100%
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+
+.gallery .grid li
+	height: 350px
+	padding: 20px
+	background-clip: content-box
+	background-size: cover
+	background-position: center
+
+.gallery .grid li.small
+	flex-basis: 30%
+
+.gallery .grid li.large
+	flex-basis: 70%
+
+@include atLarge
+	.gallery .grid li.small,
+	.gallery .grid li.large
+		flex-basis: 50%
+
+@include atMedium
+	.gallery .grid li.small,
+	.gallery .grid li.large
+		flex-basis: 100%

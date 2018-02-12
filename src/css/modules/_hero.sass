@@ -1,0 +1,68 @@
+// Hero
+
+.hero
+	position: relative
+	justify-content: center
+	text-align: center
+	min-height: 100vh
+	color: #fff
+
+.hero .background-image
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	background-size: cover
+	z-index: -1
+	background-color: #80a3db
+
+.hero h1
+	font: bold 60px "Quicksand", sans-serif
+	margin-bottom: 15px
+	letter-spacing: 0.02em
+
+.hero h3
+	font: normal 28px "Open Sans", sans-serif
+	max-width: 800px
+	margin-bottom: 54px
+
+.hero a.btn
+	color: #fff
+	padding: 20px 46px
+
+.hero a.btn:hover
+	background-color: $primary-color
+	animation: .3s hoverFade ease-out forwards
+
+.hero-content-area
+	text-shadow: 1px 1px 1px $font-color
+  opacity: 0
+  margin-top: 100px
+  animation: 1s slidefade 1s forwards
+
+.hero-content-area img
+	width: 15vw
+	max-width: 120px
+
+@keyframes slidefade
+	100%
+		opacity: 1
+		margin-top: 0
+
+@include atMedium
+	.hero
+		min-height: 800px
+
+	.hero h1
+		font-size: 48px
+
+	.hero h3
+		font-size: 24px
+
+	.hero a.btn
+		padding: 15px 40px
+
+	.hero-content-area img
+		width: 15vw
+		min-width: 80px

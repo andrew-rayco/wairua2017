@@ -1,0 +1,11 @@
+@mixin atSmall()
+  @media only screen and (max-width: 600px)
+    @content
+
+@mixin atMedium()
+  @media only screen and (max-width: 800px)
+    @content
+
+@mixin atLarge()
+  @media only screen and (max-width: 1100px)
+    @content
