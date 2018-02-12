@@ -4,7 +4,7 @@ let imgUrl = '../images/hero-bg.jpg'
 
 let style = {
   backgroundImage: 'url(' + imgUrl + ')',
-  color: 'hotpink'
+  filter: 'blur(2px)'
 }
 
 const Feature = () => {
