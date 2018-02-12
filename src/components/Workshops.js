@@ -1,5 +1,4 @@
 import React from 'react'
-import AdventureBox from './AdventureBox'
 
 const Workshops = (props) => {
   return (
@@ -46,7 +45,6 @@ const Workshops = (props) => {
           </div>
         </a>
       </div>
-      <AdventureBox />
 
     </section>
   )

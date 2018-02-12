@@ -49,25 +49,24 @@
 	&--fiji
 		background-image: url('/images/workshop-fiji.jpg')
 		span
-			display: block
 			font-size: 2em
 	&--dates
 		background-image: url('/images/workshop-dates.jpg')
 
-	// .adventure-box::before
-	// 	position: absolute
-	// 	content: ''
-	// 	top: 0
-	// 	left: 0
-	// 	height: 100%
-	// 	width: 100%
-	// 	background: $font-color
-	// 	opacity: 0.9
-	// 	z-index: -1
-	// 	transition: opacity 0.3s ease-out
-	//
-	// .adventure-box:hover::before
-	// 	opacity: 0.2
+	.adventure-box::before
+		position: absolute
+		content: ''
+		top: 0
+		left: 0
+		height: 100%
+		width: 100%
+		background: red
+		opacity: 0.9 !important
+		z-index: -1
+		transition: opacity 0.3s ease-out
+
+	.adventure-box:hover::before
+		opacity: 0.2
 
 @keyframes slideUp
 	100%

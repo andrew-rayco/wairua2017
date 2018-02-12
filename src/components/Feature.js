@@ -1,6 +1,6 @@
 import React from 'react'
 
-let imgUrl = '../images/hero-bg.jpg'
+let imgUrl = '../images/hero-bg-cropped.jpg'
 
 let style = {
   backgroundImage: 'url(' + imgUrl + ')',
