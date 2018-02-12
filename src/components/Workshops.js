@@ -1,28 +1,53 @@
 import React from 'react'
+import AdventureBox from './AdventureBox'
 
 const Workshops = (props) => {
   return (
     <section className={ window.location.hash !== '#/' ? 'workshops top-margin' : 'workshops' }>
-      <h3 className="title">Our upcoming workshops</h3>
-      <p>As we guide you through a variety of fun activities and creative workshops we will encourage self awareness, self confidence, mindful communication and offer you inspirational techniques to help focus and calm your mind.</p>
-      <p>The perfect blend to balance you in Mind, Body &amp; Spirit!</p>
+      <h3 className="title">Are you ready for an adventure?</h3>
+      <p>Wairua Adventures has combined their love and passion for health and
+      wellbeing, fitness, outdoor adventures and holistic practices such as
+      yoga, meditation and martial arts to create adventures that will rejuvinate, inspire and balance you in mind, body and spirit!</p>
+      <p>Choose from 1 day workshops, 5 night retreats, private classes, camps, or create your own bespoke adventure!</p>
       <hr/>
-      <ul className="grid">
-        <li>
-          <i className="fa fa-compass fa-4x"></i>
-          <h4>Teenage Adventure Camp</h4>
-          <h5>September 9 - 10</h5>
-          <p>Are you an adventure seeking 13-18 year old? Come and join us on our next exciting Teenage Adventure Camp.</p>
-          <a href="/#/teen-camp-sept" className="btn">Learn more</a>
-        </li>
-        <li>
-          <i className="fa fa-bicycle fa-4x"></i>
-          <h4>Teenage Adventure Camp</h4>
-          <h5>October 20 - 22</h5>
-          <p>Do you want to spend the weekend having lots of fun with new friends? Come and join us on our next exciting Teenage Adventure Camp.</p>
-          <a href="/#/teen-camp-sept" className="btn">Learn more</a>
-        </li>
-      </ul>
+      <div className="workshop-grid">
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--youth">
+            <h3>Youth Adventure Camp</h3>
+            <p>April 21 - 22, 2018</p>
+          </div>
+        </a>
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--teen">
+            <h3>Teen Adventure Camp</h3>
+            <p>May 19 - 20, 2018</p>
+          </div>
+        </a>
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--private">
+            <h3>Private classes with <br/>Shane and Jen</h3>
+          </div>
+        </a>
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--create">
+            <h3>Create your own adventure</h3>
+          </div>
+        </a>
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--fiji">
+            <h3>Amazing 5 night retreat in <span>Fiji</span></h3>
+            <p>September 2018 <br/>Details coming soon!</p>
+          </div>
+        </a>
+        <a href="/#/teen-camp-sept">
+          <div className="adventure-box adventure-box--dates">
+            <h3>Workshop dates for 2018</h3>
+            <p>Coming soon!</p>
+          </div>
+        </a>
+      </div>
+      <AdventureBox />
+
     </section>
   )
 }

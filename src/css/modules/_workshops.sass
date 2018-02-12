@@ -6,49 +6,85 @@
 	opacity: 0
 	animation: 0.7s slideUp ease-in-out forwards
 
+.workshop-grid
+	width: 100%
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+
+	a
+		display: block
+		width: 300px
+		min-width: 30%
+		margin: 1rem
+
+.adventure-box
+	min-height: 180px
+	display: flex
+	flex-direction: column
+	justify-content: center
+	text-align: center
+	background-size: cover
+	padding: 2.5rem
+	color: #fff
+	text-shadow: 2px 2px 2px $font-color
+
+	h3
+	 	margin: 0
+
+	p
+		margin: 0
+		padding: 0
+		line-height: 1.2em
+		font-size: 14px
+
+	&--youth
+		background-image: url('/images/workshop-youth.jpg')
+	&--teen
+		background-image: url('/images/workshop-teen.jpg')
+	&--private
+		background-image: url('/images/workshop-private.jpg')
+	&--create
+		background-image: url('/images/workshop-create.jpg')
+	&--fiji
+		background-image: url('/images/workshop-fiji.jpg')
+		span
+			display: block
+			font-size: 2em
+	&--dates
+		background-image: url('/images/workshop-dates.jpg')
+
+	// .adventure-box::before
+	// 	position: absolute
+	// 	content: ''
+	// 	top: 0
+	// 	left: 0
+	// 	height: 100%
+	// 	width: 100%
+	// 	background: $font-color
+	// 	opacity: 0.9
+	// 	z-index: -1
+	// 	transition: opacity 0.3s ease-out
+	//
+	// .adventure-box:hover::before
+	// 	opacity: 0.2
+
 @keyframes slideUp
 	100%
 		margin-top: inherit
 		opacity: 1
 
-.workshops .grid li
-	padding: 50px
-	flex-basis: 50%
-	text-align: center
-	opacity: 0
-	animation: 1s fadeup 0.5s ease-in forwards
-
 @keyframes fadeup
 	100%
 		opacity: 1
 
-.grid li i
-		color: $primary-color
-		opacity: 0.7
 
-.workshops .grid li h4
-	// font: 700 30px "Quicksand", sans-serif
-	color: #555
-	font-size: 20px
-	margin: 25px 0 5px
 
-.workshops .grid li h5
-	font: 400 18px "Open Sans", sans-serif
-	margin-bottom: 24px
-
-.workshops a.btn
-	padding: 14px 24px
-	background-color: $primary-color
-	color: #fff
-
-.workshops a.btn:hover
-	background-color: $primary-color
-	animation: .3s hoverFade ease-out forwards
-
-@include atMedium
-	.workshops .grid li
-		flex-basis: 100%
-		padding: 20px 20px 42px
-
-	.workshops .grid li:first-of-type
-		margin-bottom: 2em
+// .workshops a.btn
+// 	padding: 14px 24px
+// 	background-color: $primary-color
+// 	color: #fff
+//
+// .workshops a.btn:hover
+// 	background-color: $primary-color
+// 	animation: .3s hoverFade ease-out forwards
