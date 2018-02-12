@@ -7,10 +7,10 @@ const Gallery = () => {
       <p>Come along with us on one of our adventures. Here are some pictures from people who have had elevated experiences with us.</p>
       <hr />
       <ul className="grid">
-        <li className="small" style={{ backgroundImage: 'url(../images/mountain1.jpg)'}}></li>
-        <li className="large" style={{ backgroundImage: 'url(../images/mountain2.jpg)'}}></li>
-        <li className="large" style={{ backgroundImage: 'url(../images/mountain3.jpg)'}}></li>
-        <li className="small" style={{ backgroundImage: 'url(../images/mountain4.jpg)'}}></li>
+        <li className="large" style={{ backgroundImage: 'url(../images/gallery-jen-mountain.jpg)'}}></li>
+        <li className="small" style={{ backgroundImage: 'url(../images/gallery-youth-jumping.jpg)'}}></li>
+        <li className="small" style={{ backgroundImage: 'url(../images/gallery-kayak.jpg)'}}></li>
+        <li className="large" style={{ backgroundImage: 'url(../images/gallery-rainbow.jpg)'}}></li>
       </ul>
     </section>
   )
