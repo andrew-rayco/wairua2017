@@ -6,6 +6,7 @@ const Nav = () => {
     <nav>
       <Link to="/" className="link">Home</Link>
       <Link to="/workshops" className="link">Workshops</Link>
+      <Link to="/workshops/private-classes" className="link">Private Classes</Link>
       <Link to="/form" className="link">Form</Link>
       <Link to="/about" className="link">About</Link>
     </nav>
