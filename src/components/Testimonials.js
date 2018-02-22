@@ -11,6 +11,8 @@ const Testimonials = () => {
       <p className="author">- David Jones</p>
       <p className="quote">If you want to understand the universe, head on one of these adventures. I mean, seriously. It's like, woah. You know? It's like that.</p>
       <p className="author">- Bill Shakespeare</p>
+      <div className="testimonials__image"><img src="/images/testimonial-gus.jpg" alt="A happy Gus"/></div>
+
     </section>
   )
 }

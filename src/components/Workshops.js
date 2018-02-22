@@ -32,12 +32,12 @@ const Workshops = (props) => {
             <h3>Create your own adventure</h3>
           </div>
         </a>
-        <a href="/#/teen-camp-sept">
+        {/* <a href="/#/teen-camp-sept">
           <div className="adventure-box adventure-box--fiji">
             <h3>Amazing 5 night retreat in <span>Fiji</span></h3>
             <p>September 2018 <br/>Details coming soon!</p>
           </div>
-        </a>
+        </a> */}
         <a href="/#/teen-camp-sept">
           <div className="adventure-box adventure-box--dates">
             <h3>Workshop dates for 2018</h3>
