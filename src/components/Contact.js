@@ -33,7 +33,7 @@ class Contact extends React.Component {
           <input type="text" name="firstName" placeholder="First Name" defaultValue={this.state.firstName} />
           <input type="text" name="lastName" placeholder="Last Name" />
           <input type="email" name="email" placeholder="Email" autoComplete="email" />
-          <a href="submit-form" onClick={this.handleSubmit.bind(this)} className="btn">Sign up now</a>
+          <a href="submit-form" onClick={this.handleSubmit.bind(this)} className="btn">Sign up</a>
         </form>
       </section>
     )
