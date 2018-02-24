@@ -5,15 +5,20 @@ const About = () => {
     <section className="about top-margin">
 
       <h3 className="title">About Us</h3>
-        <p>Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.</p>
+        {/* <p>Wairua Adventures was born out of a love and passion for helping others reconnect with their adventurous spirit. We have created unique and exciting adventure based retreats that combine our love of exploring  the outdoors with holistic practices to balance your mind, body and spirit.</p>
         <p>We have aligned with some incredibly talented and passionate people who will share their wisdom and knowledge in a variety of creative workshops. Covering valuable topics such as Mindfulness, Meditation &amp; Spirituality, Nutrition and Healthy Lifestyle Choices, Motivational Speaking and Life Coaching, Traditional Chinese Medicine, Yoga, Martial Arts, Qi Gong, Tai Chi and more!</p>
-        <p>At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!</p>
+        <p>At Wairua Adventures all of our retreats have been lovingly crafted to offer you the perfect blend of adventure and to reawaken your spirit. So take some time out from the ‘machine world’ and have lots of fun being fully present and in the moment with a group of like minded, adventure seeking souls!</p> */}
+        <div className="about__image">
+          <img src="/images/about-jen-shane.jpg" alt="Jen and Shane"/>
+        </div>
+        <p>Shane and Jen are your friendly hosts at Wairua Adventures. They have crafted unique and inspiring adventures that will empower, encourage and nurture you wherever you may be on lifes journey.</p>
+        <p>Shane and Jen believe that life is one big adventure and that by practicing mindfulness and choosing to live everyday being fully present leads to a happy, healthy and abundant life. <br/>Arohanni</p>
 
         <div className="bios">
           <div className="bios__bio">
             <h4>Shane</h4>
             <div className="bios__image">
-              <img src="../images/shane.jpg" alt="Shane"/>
+              <img src="../images/about-shane.jpg" alt="Shane"/>
             </div>
             <div className="bios__text">
               <p>Shane has a deep love and passion for martial arts which he started over 30 years ago and is currently a senior instructor holding a 6th degree black belt in Kenpo Karate. With over 25 years experience and a co-owner of a successful Kenpo Karate studio in Porirua, Shane has taught many kids, teenagers and adults.</p>
@@ -28,7 +33,7 @@ const About = () => {
           <div className="bios__bio">
             <h4>Jen</h4>
             <div className="bios__image">
-              <img src="../images/jen.jpg" alt="Jen"/>
+              <img src="../images/about-jen.jpg" alt="Jen"/>
             </div>
             <div className="bios__text">
               <p>Jen is a loving mum to Jack who also plays an important role in the running of Wairua Adventures. She loves running and exploring different trails and having adventures in beautiful places around NZ and overseas.</p>
