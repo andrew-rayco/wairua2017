@@ -1,10 +1,9 @@
 import React from 'react'
 
-let imgUrl = '../images/hero-bg-cropped.jpg'
+let imgUrl = '../images/hero-bg.jpg'
 
 let style = {
-  backgroundImage: 'url(' + imgUrl + ')',
-  filter: 'blur(2px)'
+  backgroundImage: 'url(' + imgUrl + ')'
 }
 
 const Feature = () => {

@@ -21,6 +21,7 @@ header nav
 	display: flex
 	margin-right: -15px
 
+
 header.dark h2 a
 	color: $primary-color
 
@@ -54,3 +55,7 @@ header.dark nav .link
 	header nav
 		margin-top: 15px
 		margin-right: 0
+
+@include atSmall
+  header nav
+    display: none
