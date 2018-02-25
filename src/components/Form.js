@@ -46,6 +46,7 @@ export default class Form extends React.Component {
         <h3 className="title">Registration Form</h3>
         <p>We'll need the below details to get the adventure started (and to make sure everyone's safe, happy and tickety boo).</p>
         <p><a href="/#">Contact us</a> if you have any questions of your own.</p>
+        <hr/>
         <form name="teen-camp" onChange={(e) => this.handleChange(e)} onSubmit={(e) => this.handleSubmit(e)}>
           <FormParent />
           {this.addExtraChildren()}

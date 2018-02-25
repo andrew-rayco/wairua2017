@@ -13,6 +13,7 @@ const About = () => {
         </div>
         <p>Shane and Jen are your friendly hosts at Wairua Adventures. They have crafted unique and inspiring adventures that will empower, encourage and nurture you wherever you may be on lifes journey.</p>
         <p>Shane and Jen believe that life is one big adventure and that by practicing mindfulness and choosing to live everyday being fully present leads to a happy, healthy and abundant life. <br/>Arohanni</p>
+        <hr/>
 
         <div className="bios">
           <div className="bios__bio">

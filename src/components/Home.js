@@ -2,7 +2,7 @@ import React from 'react'
 
 import Feature from './Feature'
 import Intro from './Intro'
-import Gallery from './Gallery'
+import HomeGallery from './HomeGallery'
 import Workshops from './Workshops'
 import Testimonials from './Testimonials'
 import Contact from './Contact'
@@ -12,7 +12,7 @@ const Home = () => {
     <div className="home">
       <Feature />
       <Intro />
-      <Gallery />
+      <HomeGallery />
       <Workshops />
       <Testimonials />
       <Contact />

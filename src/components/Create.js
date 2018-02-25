@@ -7,6 +7,7 @@ const Create = () => {
       <h3 className="title">Create Your Own Adventure</h3>
       <p>Wairua Adventures can create your own custom adventure package!</p>
       <p>Would you like to have an adventure with a group of friends or are you part of an organisation who wants to create a custom adventure for your team or clients? Would you like to host a Wairua Adventure at your property?</p>
+      <hr/>
       <div className="two-cols">
         <div className="two-cols__image">
           <img src="/images/create-girl-jumping.jpg" alt="Girl jumping for joy"/>
